@@ -1,0 +1,112 @@
+*,
+*::before,
+*::after {
+  border: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font: inherit;
+  font-size: 100%;
+  margin: 0;
+  outline: none;
+  padding: 0;
+  quotes: none;
+  vertical-align: baseline;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      from(rgba(0, 0, 0, 0.4)),
+      to(rgba(0, 0, 0, 0.4))
+    ),
+    url("bg.jpg");
+  background: -webkit-linear-gradient(
+      bottom,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url("bg.jpg");
+  background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("bg.jpg");
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("bg.jpg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "Source Code Pro", monospace;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.content {
+  max-width: 800px;
+  padding: 16px;
+}
+
+.title,
+.paragraph {
+  display: block;
+  width: 100%;
+}
+
+.title {
+  color: white;
+  font-family: "Source Code Pro", monospace;
+  font-size: 1.75em;
+  font-weight: 400;
+  line-height: 1;
+  margin-bottom: 48px;
+}
+
+.paragraph {
+  margin-bottom: 24px;
+}
+
+.btn {
+  border: 1px solid white;
+  color: white;
+  display: inline-block;
+  margin-top: 16px;
+  padding: 16px 24px;
+  text-decoration: none;
+  -webkit-transition: color 0.25s ease, border-color 0.25s ease;
+  -o-transition: color 0.25s ease, border-color 0.25s ease;
+  transition: color 0.25s ease, border-color 0.25s ease;
+}
+
+.btn:hover {
+  border-color: #ff828a;
+  color: #ff828a;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+
+  .content {
+    padding: 80px;
+  }
+
+  .title {
+    font-size: 2.75em;
+  }
+}
