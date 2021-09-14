@@ -61,6 +61,12 @@ body {
 }
 
 .title,
+.paragraph,
+.btn {
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+}
+
+.title,
 .paragraph {
   display: block;
   width: 100%;
