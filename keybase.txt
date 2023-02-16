@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/aragorn590
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.gewoonzeeland.nl
+  * I am aragorn590 (https://keybase.io/aragorn590) on keybase.
+  * I have a public key ASA8wCaXjmh-JtVKgF3EEtNW1ygd4n56mo-zfx7MSO9vcgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120f92d2dce6757ab9b1a6f70399bdd50f112ac283199becd4701f611cbb5c708a20a",
+      "host": "keybase.io",
+      "kid": "01203cc026978e687e26d54a805dc412d356d7281de27e7a9a8fb37f1ecc48ef6f720a",
+      "uid": "f8352f1ae563cd781fcb8f79da5cfa19",
+      "username": "aragorn590"
+    },
+    "merkle_root": {
+      "ctime": 1676556013,
+      "hash": "22e8a51244c89e9de163425edac40c92edb4524eb83209e3d814e096174c3cc293da34d2f6022175e4394e2800d6d241f9db4d3fb72b8798b8e22cbb8607e02c",
+      "hash_meta": "ef323377ca54ce69b7691d7b130db02dd6578cc8f735d068223de99709312ea9",
+      "seqno": 24057847
+    },
+    "service": {
+      "entropy": "H+CwoWRyzx8yh3l6c5eQl2eM",
+      "hostname": "www.gewoonzeeland.nl",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.0.2"
+  },
+  "ctime": 1676556071,
+  "expire_in": 504576000,
+  "prev": "391173b4577dd03d3a9c132d5dd70e0eac82f32afe2c7055a9f6abcc19072dec",
+  "seqno": 22,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgPMAml45ofibVSoBdxBLTVtcoHeJ+epqPs38ezEjvb3IKp3BheWxvYWTESpcCFsQgORFztFd90D06nBMtXdcODqyC8yr+LHBVqfarzBkHLezEIMA7f4P+gQS4g0rCFetkUhstaaHQUToqlobsldCUq+5DAgHCo3NpZ8RAz5GPOiW2MHgoSszXSqA7dAa0eL4vCkjVACTEZgCWz9Iz8beujhUGeTERTQJaGYo2N60iDyRXPXEIeYwH9wJaAahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIBV8zpx8AuC9D24QVguFvaTORvY3d5sqDQRC31XiSAdho3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/aragorn590
+
+==================================================================
